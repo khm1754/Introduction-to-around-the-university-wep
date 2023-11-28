@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>메인화면</title>
+    <style>
+      *{
+        font-size: 40px;
+        text-align: center;
+      }
+      .image{ /* 이미지 */
+          overflow:hidden;
+      }
+      .image img{ /* 이미지 */
+          width:200px;
+          height:200px;
+      }
+      .image img:hover{ /* 이미지 마우스 올렸을 때 */
+          cursor:pointer;
+          -webkit-transform:scale(0.9); /*  크롬 */
+          -moz-transform:scale(0.9); /* FireFox */
+          -o-transform:scale(0.9); /* Opera */
+          transform:scale(0.9);
+          transition: transform .35s;
+          -o-transition: transform .35s;
+          -moz-transition: transform .35s;
+          -webkit-transition: transform .35s;
+      }
+    </style>
+</head>
+<body>
+    <table border = '0' width = '100%'>
+        <tr height = '100'>
+          <td width = '15%'></td>
+          <td width = '20%'></td>
+          <td width = '5%'></td>
+          <td width = '20%'></td>
+          <td width = '5%'></td>
+          <td width = '20%'></td>
+          <td width = '15%'></td>
+        </tr>
+        <tr height = '150'>
+          <td></td>
+          <td></td>
+          <td colspan = '3' align = 'center'>백석 알림이</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr height = '50'>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr height = '350'>
+          <td></td>
+          <td class="image"><a href='./eat/eat.html'><img src = './eat.png'></a></td>
+          <td></td>
+          <td class="image"><a href='./play/play.html'><img src = './play.png'></a></td>
+          <td></td>
+          <td class="image"><a href='./university/university.html'><img src = './university.png'></a></td>
+          <td></td>
+        </tr>
+        <tr height = '50'>
+          <td></td>
+          <td>먹거리</td>
+          <td></td>
+          <td>놀거리</td>
+          <td></td>
+          <td>대학 내 편의시설</td>
+          <td></td>
+        </tr>
+        </table>
+</body>
+</html>
