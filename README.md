@@ -1,1 +1,1 @@
-# Introduction-to-commercial-areas-around-the-university
+# 대학 주변 상권 소개 wep
